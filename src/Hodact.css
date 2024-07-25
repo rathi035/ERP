@@ -1,0 +1,64 @@
+.hod-portal {
+    background-color: #000; /* Set background to black */
+    color: #fff; /* Set text color to white for contrast */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    max-width: 1500px;
+    margin: 0 auto; /* Center the portal on the page */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  }
+  
+  .profile-photo {
+    display: flex;
+    justify-content: center; /* Center the image */
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo img {
+    width: 150px; /* Increase size for better visibility */
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff; /* Add a white border around the photo */
+  }
+  
+  h1, h2 {
+    color: #e0e0e0; /* Slightly off-white for softer text */
+    margin-bottom: 10px; /* Space out headers */
+    text-align: center; /* Center align the text */
+  }
+  
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #1c1c1c; /* Darker background for sections */
+    border-radius: 10px; /* Rounded corners for sections */
+  }
+  
+  input[type="file"],
+  textarea {
+    display: block;
+    width: calc(100% - 40px); /* Full width with padding consideration */
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #333; /* Dark background for input */
+    color: #fff; /* White text for input */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded input fields */
+  }
+  
+  a {
+    color: #1e90ff; /* Bright blue for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  .notice-board, .exam-time-table {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  

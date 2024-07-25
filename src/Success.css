@@ -1,0 +1,29 @@
+.success-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .success-container h2 {
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .success-container p {
+    margin-bottom: 20px;
+  }
+  
+  .success-container a {
+    color: #2196f3;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .success-container a:hover {
+    text-decoration: underline;
+  }
+  

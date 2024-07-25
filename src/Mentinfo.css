@@ -1,0 +1,81 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .videooox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .videooox video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .containerrrx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .mentor-form {
+    background: rgba(41, 38, 38, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(98, 97, 97, 0.5);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    width: 450px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  .mentor-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .mentform-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .mentform-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .mentform-group input {
+    width: 410px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .mentor-form button {
+    background-color: #af4c4c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .mentor-form button:hover {
+    background-color: #de2525;
+  }
+  

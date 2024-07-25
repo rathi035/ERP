@@ -1,0 +1,62 @@
+.mentor-portal {
+    background-color: #2b2b2b; /* Dark background */
+    color: #f0f0f0; /* Light text for readability */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    max-width: 1300px;
+    margin: 0 auto; /* Centered content */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Depth effect */
+  }
+  
+  .profile-photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #f0f0f0; /* Light border */
+  }
+  
+  h1, h2 {
+    color: #ffffff; /* White text for headers */
+    text-align: center;
+  }
+  
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #3a3a3a; /* Slightly lighter section background */
+    border-radius: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #555;
+  }
+  
+  th {
+    background-color: #555;
+  }
+  
+  td {
+    background-color: #4a4a4a;
+  }
+  
+  td:first-child {
+    background-color: #555;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
